@@ -9,18 +9,101 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
+/* Шапка сайта, блок header НАЧАЛО */
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+  overflow: hidden;
+  background-color: #f2f2f2;
+}
+
+.logo {
+  height: 32px;
+  width: 183px;
+  background-repeat: no-repeat;
+}
+
+.logo_place_header {
+  position: absolute;
+  z-index: 1;
+  left: 64px;
+  top: 30px;
+  background-image: url('../images/logo_place_header.svg')
+}
+
+.header__title {
+  margin: 0;
+  line-height: 96px;
+  max-width: 730px;
+  font-size: 102px;
+  font-weight: bold;
+  position: relative;
+  z-index: 1;
+  left: 64px;
+}
+
+.header__subtitle {
+  margin: 0;
+  line-height: 25px;
+  max-width: 388px;
+  font-size: 18px;
+  font-weight: normal;
+  position: absolute;
+  z-index: 1;
+  left: 64px;
+  bottom: 30px;
+}
+
+.header__link {
+color: #2f80ed;
+}
+
+.header__main-illustration {
+  width: 765px;
+  height: 608px;
+  position: absolute;
+  z-index: 0;
+  right: 0;
+  bottom: 0;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
-  height: 568px;
   width: 568px;
+  height: 568px;
+  position: absolute;
+  z-index: -1;
+  right: 0;
+  top: 64px;
+  background-color: #2f80ed;
 }
+/* Шапка сайта, блок header КОНЕЦ */
+
+
+/* Основное содержимое страницы, блок content НАЧАЛО */
+/* Секция, блок description НАЧАЛО */
+/* Секция, блок description КОНЕЦ */
+
+
+/* Секция, блок digits НАЧАЛО */
+/* Секция, блок digits КОНЕЦ */
+
+
+/* Секция, блок feynman НАЧАЛО */
+/* Секция, блок feynman КОНЕЦ */
+
+
+/* Секция, блок kaufman НАЧАЛО */
+/* Секция, блок kaufman КОНЕЦ */
+/* Основное содержимое страницы, блок content КОНЕЦ */
+
 
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
