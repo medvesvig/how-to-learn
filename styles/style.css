@@ -9,6 +9,10 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+.link {
+  text-decoration: none;
+  color: #2f80ed;
+}
 
 /* Шапка сайта, блок header НАЧАЛО */
 .header {
@@ -19,7 +23,7 @@
   display: flex;
   align-items: center;
   position: relative;
-  z-index: -1;
+  z-index: 0;
   overflow: hidden;
   background-color: #f2f2f2;
 }
@@ -190,6 +194,44 @@ color: #2f80ed;
 
 
 /* Секция, блок feynman НАЧАЛО */
+.feynman{
+  height: 890px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #f2f2f2 url('../images/feynman.png');
+  position: relative;
+  background-position: left bottom;
+  background-size: 867px 637px;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+.feynman__title {
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+  width: 648px;
+  text-align: center;
+  margin: 100px 0 0;
+}
+
+.feynman__subtitle {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  margin: 70px 0 0;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  position: absolute;
+  top: 50%;
+  right: 48px;
+}
 /* Секция, блок feynman КОНЕЦ */
 
 
