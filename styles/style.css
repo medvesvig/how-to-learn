@@ -115,6 +115,8 @@ color: #2f80ed;
 }
 
 .two-columns__main-text {
+  list-style-type: none;
+  margin: 0;
   min-width: 784px;
   width: 80%;
   line-height: 34px;
@@ -236,13 +238,12 @@ color: #2f80ed;
 
 /* Секция, блок kaufman НАЧАЛО */
 .kaufman{
-padding-top: 90px;
-display: flex;
-flex-direction: column;
-align-items: center;
-position: relative;
-overflow: hidden;
-background-color:  #1f1f1f;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+  background-color:  #1f1f1f;
 }
 
 .kaufman__triangle {
@@ -259,6 +260,7 @@ background-color:  #1f1f1f;
 .section-title_theme_dark {
   color: #fff;
   z-index: 1;
+  margin-top: 90px;
 }
 
 .section-subtitle_theme_dark {
@@ -267,7 +269,8 @@ background-color:  #1f1f1f;
 }
 
 .table_theme_dark {
-  padding-bottom: 90px;
+  z-index: 1;
+  margin-bottom: 90px;
 }
 
 /* элемент с модификатором вида ключ-значение */
@@ -286,14 +289,84 @@ background-color:  #1f1f1f;
 .table__text__theme_dark {
   color: #fff;
 }
-
 /* Секция, блок kaufman КОНЕЦ */
 /* Основное содержимое страницы, блок content КОНЕЦ */
 /* ʕ ◕ ᴥ ◕ ʔ маленький медвежонок удивлен, что я так далеко зашла */
 
+
 /* Подвал сайта, блок footer НАЧАЛО */
 .footer {
+  background-color: #1f1f1f;
+  display: flex;
+  min-height: 350px;
+  color: #fff;
+  margin: 0;
+}
+
+.footer__columns {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 60px 0 40px;
+}
+
+.footer__column {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+  justify-content: space-between;
+}
+
+/* .footer__column_content_info {
+  border: 1px solid red;
+}
+
+.footer__column_content_social {
+  border: 1px solid red;
+} */
+
+.logo_place_footer {
+  height: 35px;
+  width: 183px;
+  background-image: url('../images/logo_place_footer.svg')
+}
+
+.footer__author {
+  margin: 18px 0;
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column-heading {
+  margin: 0 0 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.footer__column-links {
+  padding: 0;
+  margin: 0 0 16px;
+  list-style-type: none;
 
 }
 
+.footer__column-link {
+  text-decoration: none;
+  color: #fff;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__social-icon {
+  padding-right: 10px;
+  width: 16px;
+  height: 16px;
+}
 /* Подвал сайта, блок footer КОНЕЦ */
