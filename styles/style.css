@@ -43,14 +43,13 @@
 }
 
 .header__title {
-  margin: 0;
+  margin: 0 0 0 64px;
+  padding: 0;
   line-height: 96px;
   max-width: 730px;
   font-size: 102px;
   font-weight: bold;
-  position: relative;
   z-index: 1;
-  left: 64px;
 }
 
 .header__subtitle {
@@ -66,7 +65,7 @@
 }
 
 .header__link {
-color: #2f80ed;
+  color: #2f80ed;
 }
 
 .header__main-illustration {
@@ -115,7 +114,6 @@ color: #2f80ed;
 }
 
 .two-columns__main-text {
-  list-style-type: none;
   margin: 0;
   min-width: 784px;
   width: 80%;
@@ -197,7 +195,7 @@ color: #2f80ed;
 
 /* Секция, блок feynman НАЧАЛО */
 .feynman {
-  height: 890px;
+  min-height: 890px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -291,8 +289,6 @@ color: #2f80ed;
 }
 /* Секция, блок kaufman КОНЕЦ */
 /* Основное содержимое страницы, блок content КОНЕЦ */
-/* ʕ ◕ ᴥ ◕ ʔ маленький медвежонок удивлен, что я так далеко зашла */
-
 
 /* Подвал сайта, блок footer НАЧАЛО */
 .footer {
@@ -320,14 +316,6 @@ color: #2f80ed;
   flex-basis: 711px;
   justify-content: space-between;
 }
-
-/* .footer__column_content_info {
-  border: 1px solid red;
-}
-
-.footer__column_content_social {
-  border: 1px solid red;
-} */
 
 .logo_place_footer {
   height: 35px;
@@ -370,3 +358,4 @@ color: #2f80ed;
   height: 16px;
 }
 /* Подвал сайта, блок footer КОНЕЦ */
+/* ʕ ◕ ᴥ ◕ ʔ ура! */
