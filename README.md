@@ -17,7 +17,7 @@
 * CSS
 
 ## Планируемые улучшения
-* Проверить код на кроссбраузерность.
+* Адаптация под кроссбраузерность
 * Адаптировать сайт для просмотра на разных устройствах
 
 ---
@@ -37,5 +37,5 @@ This project is created by using some advanced features of HTML and CSS.
 * CSS
 
 ## Future improvements
-* To check browser compatibility
+* Add browser compatibility
 * To optimize website for different screen sizes
