@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Научиться учиться</title>
-  <link rel="stylesheet" href="./styles/normalize.css">
-  <link rel="stylesheet" href="./styles/style.css">
+  <link rel="stylesheet" href="./vendor/normalize.css">
+  <link rel="stylesheet" href="./pages/index.css">
   <meta name="description" content="Яндекс.Практикум - Спринт 1">
   <meta name="keywords" content="HTML5, CSS">
   <meta name="author" content="Medvedeva">
@@ -35,6 +35,7 @@
     </header>
 
     <main class="content">
+
       <section class="description">
         <article class="two-columns">
           <h2 class="two-columns__brief">Главные проблемы в обучении</h2>
@@ -58,6 +59,46 @@
             </p>
           </div>
         </article>
+      </section>
+
+      <section class="techniques">
+        <h2 class="section-title">Техники обучения</h2>
+        <p class="section-subtitle">Пять практик от Барбары Оакли</p>
+        <ul class="cards">
+          <li class="cards__item">
+            <img src="./images/cards-attention.png" alt="Книга с надписью - 101 Essays That Will Change The Way You Think" class="cards__image">
+            <h3 class="cards__title">Два вида внимания</h3>
+            <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-recall.png" alt="Скульптура мальчика" class="cards__image">
+            <h3 class="cards__title">Recall</h3>
+            <p class="cards__description">Вспоминайте изученное — это позволит соединить разрозненные порции памяти.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-interliving.png" alt="Национальный мемориал и музей 11 сентября" class="cards__image">
+            <h3 class="cards__title">Интерливинг</h3>
+            <p class="cards__description">Изучайте несколько навыков одновременно, они обогащают друг друга.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-question.png" alt="Лабиринт с окнами" class="cards__image">
+            <h3 class="cards__title">Вопросы</h3>
+            <p class="cards__description">Слушая преподавателя, придумывайте хороший вопрос, который вас действительно волнует.</p>
+          </li>
+          <li class="cards__item">
+            <img src="./images/cards-competence.png" alt="Семь книг на вытянутой руке" class="cards__image">
+            <h3 class="cards__title">Иллюзия компетентности</h3>
+            <p class="cards__description">Повторите про себя, запишите, расскажите другу: вам только кажется, что вы владеете новой темой.</p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="feynman">
+        <h2 class="feynman__title">Метод Фейнмана</h2>
+        <p class="feynman__subtitle">Выучить и не забыть.</p>
+        <a href="#" class="link feynman__link">
+          Подробнее &rarr;
+        </a>
       </section>
 
       <section class="digits">
@@ -99,14 +140,6 @@
             <p class="table__text">Открытие условного рефлекса</p>
           </li>
         </ul>
-      </section>
-
-      <section class="feynman">
-        <h2 class="feynman__title">Метод Фейнмана</h2>
-        <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="link feynman__link">
-          Подробнее &rarr;
-        </a>
       </section>
 
       <section class="kaufman">
@@ -170,13 +203,13 @@
           <h2 class="footer__column-heading ">О Практикуме</h2>
           <ul class="footer__column-links">
             <li>
-              <a href="#" class="footer__column-link">Главная</a>
+              <a href="#" class="footer__column-link link">Главная</a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">Концепция</a>
+              <a href="#" class="footer__column-link link">Концепция</a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">Наставники</a>
+              <a href="#" class="footer__column-link link">Наставники</a>
             </li>
           </ul>
         </nav>
@@ -184,19 +217,19 @@
           <h2 class="footer__column-heading ">Соцсети</h2>
           <ul class="footer__column-links">
             <li>
-              <a href="#" target="_blank" class="footer__column-link">
+              <a href="#" target="_blank" class="footer__column-link link">
                 <img src="./images/facebook_color_white.svg" alt="Фэйсбук логотип" class="footer__social-icon">
                 Facebook
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="footer__column-link">
+              <a href="#" target="_blank" class="footer__column-link link">
                 <img src="./images/vk_color_white.svg" alt="ВКонтакте логотип" class="footer__social-icon">
                 ВКонтакте
               </a>
             </li>
             <li>
-              <a href="#" target="_blank" class="footer__column-link">
+              <a href="#" target="_blank" class="footer__column-link link">
                 <img src="./images/instagram_color_white.svg" alt="Инстаграм логотип" class="footer__social-icon">
                 Instagram
               </a>
