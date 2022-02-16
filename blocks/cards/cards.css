@@ -4,10 +4,13 @@
 @import url(./__description/cards__description.css);
 
 .cards {
-  min-width: 920px;
+  /* min-width: 920px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
-
-  list-style-type: none;
+  list-style-type: none; */
+  display: flex;
+  flex-flow: row wrap;
+  margin: 0 auto;
+  max-width: 920px;
 }
