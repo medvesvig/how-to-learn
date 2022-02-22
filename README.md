@@ -20,6 +20,9 @@
 * Адаптация под кроссбраузерность
 * Адаптировать сайт для просмотра на разных устройствах
 
+## Ссылка на сайт:
+https://medvesvig.github.io/how-to-learn/
+
 ---
 # How to learn. Project work Yandex.Praktikum
 ---
@@ -39,3 +42,6 @@ This project is created by using some advanced features of HTML and CSS.
 ## Future improvements
 * Add browser compatibility
 * To optimize website for different screen sizes
+
+## URL:
+https://medvesvig.github.io/how-to-learn/
