@@ -9,7 +9,7 @@ The single page website that contains information about approaches to learning.
 This project is created by using some advanced features of HTML and CSS.
 
 ## Implementation
-* The Nested BEM file stucture
+* The Nested BEM file structure
 * CSS-animation
 * Flexbox
 
